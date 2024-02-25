@@ -1,0 +1,460 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-image: url(/img/1.png);
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.item::after {
+    content: "";
+    width: 0%;
+    background-color: #F57520;
+    height: 3px;
+    display: block;
+    transition: 1s;
+}
+
+.item:hover::after {
+    content: "";
+    width: 100%;
+}
+
+.item a {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.item a:hover {
+    color: #F57520;
+}
+
+.header-list ul {
+    display: flex;
+    gap: 32px;
+}
+
+.header-list ul li {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 58px;
+    margin-left: 74px;
+}
+
+.header-icons-2 {
+    display: flex;
+    gap: 26px;
+}
+
+.left-header-h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 118px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 679px;
+    height: 227px;
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+.left-header-p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: white;
+    width: 645px;
+    height: 87px;
+    margin-bottom: 40px;
+}
+
+.left-header {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 236px;
+}
+
+.header-btn button {
+    width: 180px;
+    height: 52px;
+    padding: 16px, 80px, 16px, 80px;
+    border-radius: 10px;
+    gap: 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.header-btn button:hover {
+    background-color: #F57520;
+    color: #fff;
+    border: none;
+}
+
+.banners-header {
+    display: flex;
+
+}
+
+.first-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #101010;
+    width: 747px;
+    height: 212px;
+    top: 875px;
+}
+
+.second-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 427px;
+    height: 212px;
+    top: 875px;
+    left: 747px;
+    padding: 68px, 93px, 68px, 57px;
+    background: #34312D;
+}
+
+.third-banner {
+    padding-left: 48px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: #6B6666;
+    width: 746px;
+    height: 212px;
+    top: 875px;
+    left: 1174px;
+    padding: 68px, 372px, 30px, 48px;
+}
+
+.first-banner p {
+    width: 277px;
+    height: 76px;
+    top: 54px;
+    left: 319px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #B3B3B3;
+}
+
+.second-banner p {
+    width: 277px;
+    height: 76px;
+    top: 54px;
+    left: 319px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #B3B3B3;
+}
+
+.third-banner p {
+    width: 326px;
+    height: 114px;
+    top: 68px;
+    left: 48px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #fff;
+}
+
+/* MAIN */
+
+.fisrt-section {
+    background-color: #B3B3B3;
+}
+
+.section1-heading {
+    margin-top: 113px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 79px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 122px;
+}
+
+.sec1-first-card {
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 300px;
+    top: 1378px;
+    left: 340px;
+    border-radius: 10px;
+    background: #101010;
+    margin-bottom: 16px;
+    transition: 0.5s;
+}
+
+.sec1-first-card:hover {
+    background: #F57520;
+}
+
+.sec1-first-card p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    margin-left: 80px;
+    color: #fff;
+}
+
+.sec1-last-cards {
+    display: flex;
+    gap: 12px;
+}
+
+.sec1-last-card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 400px;
+    height: 458px;
+    top: 1694px;
+    left: 340px;
+    padding: 80px, 0px, 0px, 0px;
+    border-radius: 10px;
+    color: #fff;
+    background: #101010;
+    transition: 0.5s;
+}
+
+.sec1-last-card1:hover {
+    background-color: #F57520;
+}
+
+.sec1-last-card1 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.sec1-last-card2 {
+    display: flex;
+    /* justify-content: end;
+    flex-direction: column;
+    align-items: center; */
+    text-align: start;
+    width: 400px;
+    height: 216px;
+    border-radius: 10px;
+    background: #101010;
+    background-image: url(/img/pngwing\ \(1\).png);
+    background-position: right;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.sec1-last-card2:hover {
+    background-color: #F57520;
+}
+
+.sec1-last-card3 {
+    display: flex;
+    text-align: start;
+    width: 400px;
+    height: 216px;
+    border-radius: 10px;
+    background: #101010;
+    background-position: right;
+    background-image: url(/img/pngwing\ \(2\).png);
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.sec1-last-card3:hover {
+    background-color: #F57520;
+}
+
+.sec1-last-card4 {
+    display: flex;
+    text-align: start;
+    width: 400px;
+    height: 216px;
+    border-radius: 10px;
+    background: #101010;
+    background-position: right;
+    background-image: url(/img/image\ 40.png);
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.sec1-last-card4:hover {
+    background-color: #F57520;
+}
+
+.sec1-last-card5 {
+    display: flex;
+    text-align: start;
+    width: 400px;
+    height: 216px;
+    border-radius: 10px;
+    background: #101010;
+    background-image: url(/img/image\ 39.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    transition: 0.5s;
+}
+
+.sec1-last-card5:hover {
+    background-color: #F57520;
+}
+
+.sec1-last-card2 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #fff;
+    margin-top: 29px;
+    margin-left: 20px;
+}
+
+.sec1-last-card3 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #fff;
+    margin-top: 29px;
+    margin-left: 20px;
+}
+
+.sec1-last-card4 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #fff;
+    margin-top: 29px;
+    margin-left: 20px;
+}
+
+.sec1-last-card5 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #fff;
+    margin-top: 29px;
+    margin-left: 20px;
+}
+
+.sec1-last-cards2 {
+    display: flex;
+    gap: 20px;
+}
+
+.last-and-alst-card-sec1 {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.second-se1-img {
+    width: 186.19px;
+    height: 165.19px;
+
+}
+
+.second-section p {
+    margin-top: 113px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 79px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 122px;
+
+}
+
+.inside-card {
+    width: 400px;
+    height: 462px;
+    border-radius: 10px;
+    background-color: #101010;
+}
+
+.cards1 {
+    display: flex;
+    gap: 40px;
+}
+
+/* Footer */
